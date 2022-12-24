@@ -3,12 +3,8 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import logging
 import random
 from aiogram import types
-import os
-from dotenv import load_dotenv, find_dotenv
 
-load_dotenv(find_dotenv())
-
-TOKEN = os.getenv('TOKEN')
+TOKEN = "5668110657:AAFwabTKXbfldY_cAl6Z_7M_YZU4lvnjilA"
 
 sports = {'Футбол': 'https://t.me/rflive',
           'Баскетбол': 'https://t.me/all_about_nba',
